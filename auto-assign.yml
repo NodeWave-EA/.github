@@ -1,0 +1,14 @@
+# Auto-assign configuration for pull requests
+# This file is used by the auto-assign workflow
+
+# Reviewers to assign based on CODEOWNERS
+addReviewers: true
+
+# Assignees to automatically set
+addAssignees: author
+
+# Number of reviewers to assign
+numberOfReviewers: 0  # Set to 0 to use CODEOWNERS only
+
+# Skip adding reviewers if the PR is a draft
+skipDraft: true

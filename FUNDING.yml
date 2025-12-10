@@ -1,0 +1,21 @@
+# Funding Options for NodeWave EA
+
+# GitHub Sponsors
+# github: NodeWave
+
+# Custom funding link - NodeWave website
+custom: ["https://www.nodewave.net/contact"]
+
+# To enable GitHub Sponsors or other platforms:
+# 1. Set up your account on the desired platform
+# 2. Uncomment the relevant line above
+# 3. Replace the placeholder with your actual username/organization
+#
+# Supported platforms:
+# - GitHub Sponsors: github: username
+# - Open Collective: open_collective: username
+# - Ko-fi: ko_fi: username
+# - Patreon: patreon: username
+# - Custom URLs: custom: ["url1", "url2"]
+#
+# More info: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository

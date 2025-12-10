@@ -1,0 +1,50 @@
+# Labeler configuration for auto-labeling pull requests
+# This file is used by the auto-label workflow
+# Add labels based on file path patterns
+
+# Documentation
+documentation:
+  - '**/*.md'
+  - 'docs/**/*'
+
+# CI/CD
+ci:
+  - '.github/workflows/**'
+  - '.github/dependabot.yml'
+
+# Configuration
+config:
+  - '**/*.json'
+  - '**/*.yml'
+  - '**/*.yaml'
+  - '**/*.toml'
+  - '**/*.ini'
+
+# Source code
+source:
+  - 'src/**/*'
+  - 'lib/**/*'
+
+# Tests
+tests:
+  - '**/*.test.*'
+  - '**/*.spec.*'
+  - 'test/**/*'
+  - 'tests/**/*'
+  - '__tests__/**/*'
+
+# Infrastructure
+infrastructure:
+  - 'docker/**/*'
+  - 'Dockerfile*'
+  - 'docker-compose*.yml'
+  - 'infrastructure/**/*'
+
+# Dependencies
+dependencies:
+  - 'package.json'
+  - 'package-lock.json'
+  - 'yarn.lock'
+  - 'requirements.txt'
+  - 'Pipfile'
+  - 'Pipfile.lock'

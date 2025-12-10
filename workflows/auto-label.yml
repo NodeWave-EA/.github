@@ -1,0 +1,77 @@
+name: Auto Label
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  issues:
+    types: [opened, edited]
+
+jobs:
+  label:
+    name: Auto Label Issues and PRs
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Label based on file paths
+        uses: actions/labeler@v5
+        if: github.event_name == 'pull_request'
+        with:
+          configuration-path: '.github/labeler.yml'
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Label based on size
+        uses: codelytv/pr-size-labeler@v1
+        if: github.event_name == 'pull_request'
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          xs_label: 'size/xs'
+          xs_max_size: 10
+          s_label: 'size/s'
+          s_max_size: 100
+          m_label: 'size/m'
+          m_max_size: 500
+          l_label: 'size/l'
+          l_max_size: 1000
+          xl_label: 'size/xl'
+
+      - name: Label by title keywords
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = context.payload.pull_request?.title || context.payload.issue?.title;
+            const titleLower = title.toLowerCase();
+            const labels = [];
+
+            if (titleLower.includes('fix') || titleLower.includes('bug')) {
+              labels.push('bug');
+            }
+            if (titleLower.includes('feat') || titleLower.includes('feature')) {
+              labels.push('feature');
+            }
+            if (titleLower.includes('docs') || titleLower.includes('documentation')) {
+              labels.push('documentation');
+            }
+            if (titleLower.includes('security')) {
+              labels.push('security');
+            }
+            if (titleLower.includes('perf') || titleLower.includes('performance')) {
+              labels.push('performance');
+            }
+
+            if (labels.length > 0) {
+              const issueNumber = context.payload.pull_request?.number || context.payload.issue?.number;
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                labels: labels
+              });
+            }

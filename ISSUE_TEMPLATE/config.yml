@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussions
+    url: https://github.com/orgs/NodeWave/discussions
+    about: Ask questions, share ideas, and engage with the community
+  - name: 📖 Documentation
+    url: https://www.nodewave.net
+    about: Visit our documentation for guides and API references
+  - name: 💡 Support
+    url: https://github.com/NodeWave/.github/blob/main/SUPPORT.md
+    about: Get help and find answers to common questions

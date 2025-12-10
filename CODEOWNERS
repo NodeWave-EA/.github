@@ -1,0 +1,61 @@
+# Code Owners
+#
+# This file defines who owns different parts of the codebase
+# and will be automatically requested for review when PRs
+# modify files they own.
+#
+# More info: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Global owners - will be requested for review on all PRs
+* @NodeWave/maintainers
+
+# Documentation - owned by maintainers
+*.md @NodeWave/maintainers
+docs/ @NodeWave/maintainers
+
+# CI/CD workflows - owned by maintainers
+.github/workflows/ @NodeWave/maintainers
+.github/dependabot.yml @NodeWave/maintainers
+
+# Issue and PR templates - owned by maintainers
+.github/ISSUE_TEMPLATE/ @NodeWave/maintainers
+.github/PULL_REQUEST_TEMPLATE.md @NodeWave/maintainers
+
+# Security and community health files - owned by maintainers
+.github/SECURITY.md @NodeWave/maintainers
+.github/CODE_OF_CONDUCT.md @NodeWave/maintainers
+.github/CONTRIBUTING.md @NodeWave/maintainers
+
+# Configuration files
+*.json @NodeWave/maintainers
+*.yml @NodeWave/maintainers
+*.yaml @NodeWave/maintainers
+
+# Repository-specific patterns (uncomment and customize per repository)
+# These are examples - individual repositories should customize based on their structure
+
+# Source code directories
+# src/ @NodeWave/engineering-team
+# src/api/ @NodeWave/backend-team
+# src/components/ @NodeWave/frontend-team
+# src/utils/ @NodeWave/engineering-team
+
+# Tests
+# **/*.test.ts @NodeWave/qa-team
+# **/*.test.js @NodeWave/qa-team
+# **/*.spec.ts @NodeWave/qa-team
+# **/*.spec.js @NodeWave/qa-team
+
+# Infrastructure
+# infrastructure/ @NodeWave/devops-team
+# docker/ @NodeWave/devops-team
+# Dockerfile @NodeWave/devops-team
+# docker-compose.yml @NodeWave/devops-team
+
+# Database
+# migrations/ @NodeWave/backend-team
+# schema/ @NodeWave/backend-team
+
+# Examples and demos
+# examples/ @NodeWave/maintainers
+# demos/ @NodeWave/maintainers
