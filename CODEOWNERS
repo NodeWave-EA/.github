@@ -7,29 +7,29 @@
 # More info: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
 
 # Global owners - will be requested for review on all PRs
-* @NodeWave/maintainers
+* @Gideon-Yebei @gideonmaina
 
 # Documentation - owned by maintainers
-*.md @NodeWave/maintainers
-docs/ @NodeWave/maintainers
+*.md @Gideon-Yebei @gideonmaina
+docs/ @Gideon-Yebei @gideonmaina
 
 # CI/CD workflows - owned by maintainers
-.github/workflows/ @NodeWave/maintainers
-.github/dependabot.yml @NodeWave/maintainers
+.github/workflows/ @Gideon-Yebei @gideonmaina
+.github/dependabot.yml @Gideon-Yebei @gideonmaina
 
 # Issue and PR templates - owned by maintainers
-.github/ISSUE_TEMPLATE/ @NodeWave/maintainers
-.github/PULL_REQUEST_TEMPLATE.md @NodeWave/maintainers
+.github/ISSUE_TEMPLATE/ @Gideon-Yebei @gideonmaina
+.github/PULL_REQUEST_TEMPLATE.md @Gideon-Yebei @gideonmaina
 
 # Security and community health files - owned by maintainers
-.github/SECURITY.md @NodeWave/maintainers
-.github/CODE_OF_CONDUCT.md @NodeWave/maintainers
-.github/CONTRIBUTING.md @NodeWave/maintainers
+.github/SECURITY.md @Gideon-Yebei @gideonmaina
+.github/CODE_OF_CONDUCT.md @Gideon-Yebei @gideonmaina
+.github/CONTRIBUTING.md @Gideon-Yebei @gideonmaina
 
 # Configuration files
-*.json @NodeWave/maintainers
-*.yml @NodeWave/maintainers
-*.yaml @NodeWave/maintainers
+*.json @Gideon-Yebei @gideonmaina
+*.yml @Gideon-Yebei @gideonmaina
+*.yaml @Gideon-Yebei @gideonmaina
 
 # Repository-specific patterns (uncomment and customize per repository)
 # These are examples - individual repositories should customize based on their structure
