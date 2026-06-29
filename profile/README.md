@@ -1,23 +1,36 @@
 # NodeWave EA
 
-**Create Interactive Dashboards and Websites**
+**Edge-to-Cloud IoT Solutions & Connected Infrastructure across East Africa**
 
-Welcome to NodeWave EA's GitHub organization! We're based in Kenya and specialize in creating interactive dashboards and web applications.
+Based in Nairobi, Kenya, NodeWave EA deploys robust, production-ready IoT ecosystems, bridging hardware, firmware, and low-latency cloud infrastructure for actionable telemetry.
 
-## 🌐 About Us
+**Website:** [nodewave.net](https://nodewave.net) | **Blog:** [nodewave-blogs.vercel.app](https://nodewave-blogs.vercel.app/) | **Email:** info@nodewave.net | **Location:** Nairobi, Kenya 🇰🇪
 
-NodeWave EA builds modern, interactive web solutions that help businesses visualize data and engage with their users effectively.
+---
 
-**Website:** [www.nodewave.net](https://www.nodewave.net)
-**Email:** info@nodewave.net
-**Location:** Kenya 🇰🇪
+## 🚀 Core Capabilities
 
-## 🚀 Our Focus
+*   **Hardware & Firmware Development:** Prototyping, sensor integration, and MCU firmware development.
+*   **IoT Dashboards & Analytics:** Real-time operational monitoring, field alerts, and visual analytics.
+*   **Fleet Management:** OTA firmware updates and secure device lifecycle management.
 
-- 📊 Interactive Dashboards
-- 🌐 Modern Web Applications
-- 📱 Responsive Design
-- ⚡ Performance Optimization
+---
+
+## 🛠️ Technology Stack
+
+*   **Connectivity:** MQTT, CoAP, LoRaWAN, 4G / CAT-M.
+*   **Edge & Cloud:** MicroPython, Node-RED, Raspberry Pi, AWS IoT, Docker.
+*   **Data & Monitoring:** InfluxDB, PostgreSQL, Grafana.
+
+---
+
+## 🌐 Industries
+
+*   🏭 **Industrial Automation**
+*   🚜 **Agritech & Smart Farming**
+*   🏙️ **Smart City Solutions**
+
+---
 
 ## 📫 Get in Touch
 
@@ -35,4 +48,4 @@ Individual projects have their own licenses. Please refer to each repository's L
 
 ---
 
-*Building the future of interactive web experiences* 🚀
+*Architecting the future of intelligent infrastructure and connected systems.* 🔌⚡
