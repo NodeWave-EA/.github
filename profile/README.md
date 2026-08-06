@@ -1,6 +1,6 @@
 # NodeWave EA
 
-**Edge-to-Cloud IoT Solutions & Connected Infrastructure across East Africa**
+**End-to-end IoT Solutions & Connected Infrastructure across East Africa**
 
 Based in Nairobi, Kenya, NodeWave EA deploys robust, production-ready IoT ecosystems, bridging hardware, firmware, and low-latency cloud infrastructure for actionable telemetry.
 
