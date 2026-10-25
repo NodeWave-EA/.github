@@ -4,8 +4,6 @@
 
 Based in Nairobi, Kenya, NodeWave EA deploys robust, production-ready IoT ecosystems, bridging hardware, firmware, and low-latency cloud infrastructure for actionable telemetry.
 
-**Website:** [nodewave.net](https://nodewave.net) | **Blog:** [nodewave-blogs.vercel.app](https://nodewave-blogs.vercel.app/) | **Email:** info@nodewave.net | **Location:** Nairobi, Kenya 🇰🇪
-
 ---
 
 ## 🚀 Core Capabilities
